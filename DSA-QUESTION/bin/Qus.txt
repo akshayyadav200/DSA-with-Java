@@ -1,0 +1,8 @@
+---------------->RECRUSION<---------------
+1: Count number of 0 in a number
+2: Convert binary Number to Decimal
+3: Sum of n natural number
+4: Find out number is Strong Number
+5: Count Even and odd number
+6: Number to String conversion
+7: String to integer   Hint:: ASSCI VALUE 

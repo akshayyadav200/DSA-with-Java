@@ -1,0 +1,18 @@
+1. A leap year comes in every 4 year is not a leap year like 1700,1800,1900,2000,etc . if it is century year but 
+   it comes in 400 so it is a leap year.
+2.  Grade System 
+3.  Triangle Validator 
+4.  Vowel or Consonant 
+5.  Password Validator (Hint::System.console) 8 to 25 Character long one uppercase ,Spacial symbol and one digit . (Hint::Regular Expression)
+6.  Absolute Difference Calculator
+7.  Sum of Digit
+8.  Fibbonaci
+9. lcm
+10. GCD
+label loop
+11.perfect number 
+12. Even odd place of dight
+13. reverse a number lead code  7
+14. Armstrong number
+15. petersomn number 
+16. Find the frequency of each number 

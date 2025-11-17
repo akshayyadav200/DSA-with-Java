@@ -1,4 +1,5 @@
-public class Day_1_swap {
+package Day_1;
+public class Swap {
     public static void main(String[] args) {
         int num=15324;
         int position=0;

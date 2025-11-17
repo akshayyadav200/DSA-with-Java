@@ -1,20 +1,19 @@
 package Recrusion;
-
-public class countEvenOdd {
-    static void CountEvenOdd(int range,int countOdd,int countEven){
-        if(range==1){
-            System.out.println(" Even count "+countEven+" Odd Count "+countOdd);
+public class CountEvenOdd {
+    static void countEvenOdd(int range, int evenCount, int oddCount) {
+        if (range == 0) {
+            System.out.println("Even Count " + evenCount + " Odd Count " + oddCount);
             return;
         }
-        if(range%2==0){
-          countEven++;
-        }else{
-           countOdd++;
+        if (range % 2 == 0) {
+            evenCount++;
+        } else {
+            oddCount++;
         }
-          CountEvenOdd(range-1,countEven,countOdd);
+        countEvenOdd(range - 1, evenCount, oddCount);
     }
+
     public static void main(String[] args) {
-        CountEvenOdd(100, 0, 0);
+        countEvenOdd(100, 0, 0);
     }
-    
 }

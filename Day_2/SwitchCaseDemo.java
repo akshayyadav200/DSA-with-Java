@@ -1,10 +1,11 @@
+package Day_2;
 //Switch case is much faster than if else 
 // int ,byte, char 
 enum PRODUCTS {
 PIZZA, BURGER, DRINKS, DESSERTS
 }
 
-public class Day_2_SwitchCaseDemo {
+public class SwitchCaseDemo {
     public static void main(String[] args) {
         // final int BURGER = 1;
         // final int PIZZA = 2;

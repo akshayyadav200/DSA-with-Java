@@ -1,4 +1,5 @@
-class Day_1_Digit {
+package Day_1;
+class Digit {
     public static void main(String[] args) {
         int num=12345;
         int copy =num;

@@ -6,6 +6,7 @@ public class Factorial {
             System.out.println(result);
             return;
         }
+        //Small Problem
         fact(num-1,num*result);
 
     }

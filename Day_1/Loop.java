@@ -1,4 +1,5 @@
-class Day_1_Loop {
+package Day_1;
+class Loop {
     public static void main(String[] args) {
     //    int num =17;
     //    int factor =0;

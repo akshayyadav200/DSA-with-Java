@@ -1,6 +1,7 @@
+package Day_2;
 import java.util.ArrayList;
 
-public class Day_2_EnhanceForLoop {
+public class EnhanceForLoop {
     public static void main(String[] args) {
 
         ArrayList<Integer>list=new ArrayList<>(100);

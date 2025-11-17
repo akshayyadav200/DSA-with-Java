@@ -1,6 +1,7 @@
+package Day_1;
 import java.util.Scanner;
 
-public class Day_1_ifelse {
+public class ifelse {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the 1st number:");

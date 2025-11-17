@@ -1,4 +1,5 @@
-public class Day_1_PrintDigit {
+package Day_1;
+public class PrintDigit {
     public static void main(String[] args) {
        int num=34231;
        int copy=num;

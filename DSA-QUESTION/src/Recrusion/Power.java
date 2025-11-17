@@ -1,15 +1,28 @@
 package Recrusion;
-
 public class Power {
-    static void power(int num,int pow,int result){
-        if(pow==0){
-            System.out.println(result);
-          return;
+    // return result
+    static int power(int num, int pow) {
+        if (pow == 0) {
+            // time to prepare the result
+            return 1; // init result
         }
-       power(num, pow-1, result*num); 
+        int smallResult = power(num, pow - 1);
+        int result = smallResult * num;
+        return result;
     }
+
+    // prepare the result in each call
+    static void power(int num, int pow, int result) {
+        if (pow == 0) {
+            System.out.println(result); // time to print the result
+            return;
+        }
+        power(num, pow - 1, result * num);
+    }
+
     public static void main(String[] args) {
-        power(2, 5, 1);
+        int r = power(2, 5);
+        System.out.println(r);
+        // power(2, 5, 1); // 2^5
     }
-    
 }

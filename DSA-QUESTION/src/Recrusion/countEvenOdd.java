@@ -1,4 +1,4 @@
-package Recrusion;
+                    package Recrusion;
 public class CountEvenOdd {
     static void countEvenOdd(int range, int evenCount, int oddCount) {
         if (range == 0) {
